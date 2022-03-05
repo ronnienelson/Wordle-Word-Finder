@@ -1,0 +1,74 @@
+body{
+  text-align:center;
+  background: #1B4D3E;
+}
+#title{
+  color: #F5F5F5;
+  font-size:3em;
+}
+
+#contain{
+  border:1px solid white;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+input{
+  width:5%;
+  border-radius:25px;
+}
+#correctguess{
+  color:green;
+}
+#userGuess{
+  color:red;
+}
+.hide{
+  display:none;
+}
+
+#goodLetters{
+  padding:1em;
+  font-size:1em;
+width:16em;
+  text-align:left;
+}
+#badLetter{
+  padding:1em;
+  font-size:1em;
+width:16em;
+  text-align:left;
+  margin:1em;
+}
+
+#instructions{
+  width:20%;
+}
+
+#flex{
+  display:flex;
+  justify-content:center;
+  padding:1em;
+}
+
+.inps{
+  border-radius:0;
+  padding:1em;
+  
+}
+
+#totalContainer{
+  border:1px solid;
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  background:	#F5F5F5;
+  border-radius:10px;
+}
+#possibleWords{
+  color:#F5F5F5;
+}
+
+li{
+  color:#F5F5F5;
+}
