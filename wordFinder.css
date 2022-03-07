@@ -72,3 +72,26 @@ width:16em;
 li{
   color:#F5F5F5;
 }
+
+@media (min-width: 320px) {
+  #totalContainer{
+    width:100%;
+  }
+}
+@media (min-width:700px){
+  #totalContainer{
+    width:80%;
+  }
+}
+
+@media (min-width:1200px){
+  #totalContainer{
+    width:60%;
+  }
+}
+
+@media (min-width:1400px){
+  #totalContainer{
+    width:40%;
+  }
+}
